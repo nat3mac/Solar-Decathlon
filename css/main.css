@@ -63,6 +63,9 @@ h3{
 #englishIcon{
 	margin-right: 10px;
 }
+.lightSwitch{
+	opacity: .3;
+}
 #roomIcon1{
 	position: absolute;
 	margin-top: 110px;

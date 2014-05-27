@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-	toggleOn1=true;
-	toggleOn2=true;
-	toggleOn3=true;
-	toggleOn4=true;
-	toggleOn5=true;
+	toggleOn1=false;
+	toggleOn2=false;
+	toggleOn3=false;
+	toggleOn4=false;
+	toggleOn5=false;
 
 	$('#roomIcon1').click(
 		function(){
