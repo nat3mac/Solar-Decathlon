@@ -2,7 +2,8 @@
 * {
 	margin:0; padding:0;
 }
-body{
+#sizing{
 	width: 1280px;
 	height: 800px;
+	background-color: black;
 }
