@@ -23,10 +23,16 @@ h3{
 	float: left;
 	width: 400px;
 	height: 685px;
-	background-color: red;
 }
 #thermostat{
+	background-color: red;
 	margin-left: 20px;
+}
+#roomSelect{
+	background-color: red;
+}
+#energyUse{
+	background-image: url(../img/piegraph.png);
 }
 #settingsBar{
 	margin-top: 20px;
