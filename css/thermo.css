@@ -11,7 +11,7 @@
 	height:100%;
 	width:16px;
 	position: absolute;
-	left:16px;
+	left:32px;
 	}
 #grad {
 	background: -webkit-linear-gradient(#c1272d, #4d4d4d, #0071bc); /* For Safari 5.1 to 6.0 */
@@ -21,7 +21,7 @@
 	height:100%;
 	width:128px;
 	position: absolute;
-	left:32px;
+	left:64px;
 	margin-left:12px;
 	}
 #temp {
@@ -32,4 +32,7 @@
 	text-align:center;
 	position: relative;
 	top: 50%;
+	}
+#temp:before {
+	content: "20";
 	}
