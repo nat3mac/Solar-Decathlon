@@ -17,15 +17,6 @@ h3{
 	margin: auto;
 	background-color: #4d4d4d;
 }
-#settingsBar{
-	margin-top: 20px;
-	float: left;
-	height: 55px;
-	background-color: black;
-	width: 1240px;
-	margin-left: 20px;
-	color: #7ad3ab;
-}
 .primaryElement{
 	margin-right: 20px;
 	margin-top: 20px;
@@ -37,14 +28,19 @@ h3{
 #thermostat{
 	margin-left: 20px;
 }
+#settingsBar{
+	margin-top: 20px;
+	float: left;
+	height: 55px;
+	background-color: black;
+	width: 1240px;
+	margin-left: 20px;
+	color: #7ad3ab;
+}
 #config{
 	margin-left: 10px;
 	line-height: 55px;
 	float: left;
-}
-#lang{
-	float: right;
-	margin-right: 10px;
 }
 #configText{
 	float: left;
@@ -54,3 +50,12 @@ h3{
 	margin-top: 10px;
 	margin-right: 8px;
 }
+#lang{
+	float: right;
+	margin-right: 15px;
+	margin-top: 2px;
+}
+#englishIcon{
+	margin-right: 10px;
+}
+
