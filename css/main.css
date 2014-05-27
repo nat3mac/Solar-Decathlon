@@ -29,7 +29,7 @@ h3{
 	margin-left: 20px;
 }
 #roomSelect{
-	background-color: red;
+	background-image: url(../img/roomoutline.png);
 }
 #energyUse{
 	background-image: url(../img/piegraph.png);
