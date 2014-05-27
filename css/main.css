@@ -63,6 +63,9 @@ h3{
 #englishIcon{
 	margin-right: 10px;
 }
+#spanishIcon{
+	opacity: .3;
+}
 .lightSwitch{
 	opacity: .3;
 }
