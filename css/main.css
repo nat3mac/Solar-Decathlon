@@ -10,3 +10,22 @@
 	border: solid;
 	margin: auto;
 }
+#settingsBar{
+	margin-top: 20px;
+	float: left;
+	height: 55px;
+	background-color: black;
+	width: 1240px;
+	margin-left: 20px;
+}
+.primaryElement{
+	margin-right: 20px;
+	margin-top: 20px;
+	float: left;
+	width: 400px;
+	height: 685px;
+	background-color: red;
+}
+#thermostat{
+	margin-left: 20px;
+}
