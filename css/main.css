@@ -23,6 +23,7 @@ h3{
 	float: left;
 	width: 400px;
 	height: 685px;
+	position: relative;
 }
 #thermostat{
 	background-color: red;
@@ -63,4 +64,28 @@ h3{
 #englishIcon{
 	margin-right: 10px;
 }
-
+#roomIcon1{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 90px;
+}
+#roomIcon2{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 260px;
+}
+#roomIcon3{
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 175px;
+}
+#roomIcon4{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 90px;
+}
+#roomIcon5{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 260px;
+}
