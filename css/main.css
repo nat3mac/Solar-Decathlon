@@ -2,6 +2,12 @@
 * {
 	margin:0; padding:0;
 }
+h3{
+	font-family: raleway;
+	font-weight: 400;
+	color: #7ad3ab;
+	font-size: 30px;
+}
 #sizing{
 	width: 1280px;
 	height: 800px;
@@ -9,6 +15,7 @@
 	border-color: black;
 	border: solid;
 	margin: auto;
+	background-color: #4d4d4d;
 }
 #settingsBar{
 	margin-top: 20px;
@@ -17,6 +24,7 @@
 	background-color: black;
 	width: 1240px;
 	margin-left: 20px;
+	color: #7ad3ab;
 }
 .primaryElement{
 	margin-right: 20px;
@@ -28,4 +36,21 @@
 }
 #thermostat{
 	margin-left: 20px;
+}
+#config{
+	margin-left: 10px;
+	line-height: 55px;
+	float: left;
+}
+#lang{
+	float: right;
+	margin-right: 10px;
+}
+#configText{
+	float: left;
+}
+#configIcon{
+	float: left;
+	margin-top: 10px;
+	margin-right: 8px;
 }
