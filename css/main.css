@@ -5,5 +5,8 @@
 #sizing{
 	width: 1280px;
 	height: 800px;
-	background-color: black;
+	border-width: 3px;
+	border-color: black;
+	border: solid;
+	margin: auto;
 }
