@@ -10,8 +10,10 @@ body {
 	margin:auto;
 	font-family: 'Roboto', sans-serif;
 }
-h1{font-weight: 300;}
-
+h1{
+	font-weight: 300;
+	color: #7ad3ab;
+}
 h3{
 	font-weight: 400;
 	color: #7ad3ab;
@@ -26,21 +28,25 @@ h3{
 	margin: auto;
 }
 .primaryElement{
-	margin-right: 20px;
-	margin-top: 20px;
+	margin-left: 200px;
+	margin-top: 0px;
 	float: left;
 	width: 400px;
-	height: 685px;
+	height: 640px;
 	position: relative;
 }
 #thermostat{
-	margin-left: 20px;
+	margin-left: 300px;
+	
 }
 #roomSelect{
 	background-image: url(../img/roomoutline.png);
+	display: none;
 }
 #energyUse{
-
+	background-image: url(../img/piegraph.png);
+	background-size: 95%;
+	display: none;
 }
 #settingsBar{
 	margin-top: 20px;
@@ -103,4 +109,16 @@ h3{
 	position: absolute;
 	margin-top: 500px;
 	margin-left: 260px;
+}
+#primary{
+	float: left;
+	height: 640px;
+	width: 830px;
+	background-color: red;
+}
+#selection{
+	float: left;
+	height: 640px;
+	width: 450px;
+	background-color: blue;
 }
