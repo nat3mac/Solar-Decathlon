@@ -11,11 +11,7 @@ $('#slider').draggable({
 			tempsetting = $('#slider').position();
 			temptop = tempsetting.top;
 			tempdif = temptop/24;
-			console.log (tempdif);
 			$('#temp').html(Math.round(30-tempdif));
         }
     });
-    
-    
-
 });
