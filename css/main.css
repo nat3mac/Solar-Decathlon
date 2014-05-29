@@ -114,11 +114,23 @@ h3{
 	float: left;
 	height: 640px;
 	width: 830px;
-	background-color: red;
 }
 #selection{
 	float: left;
 	height: 640px;
 	width: 450px;
-	background-color: blue;
+}
+.selectionButton{
+	width: 450px;
+	height: 320px;
+}
+#selectThermo{
+	display: none;
+	background-image: url(../img/selectThermo.png);
+}
+#selectLights{
+	background-image: url(../img/selectLights.png);
+}
+#selectFeedback{
+	background-image: url(../img/selectEnergy.png);
 }
