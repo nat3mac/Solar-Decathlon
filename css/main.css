@@ -84,6 +84,7 @@ h3{
 	margin-right: 15px;
 	margin-top: 2px;
 }
+.langSelect:hover{cursor: pointer;}
 #englishIcon{
 	opacity: .3;
 	margin-right: 10px;

@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	var langSet='es';
+
 	$('#englishIcon').click(
 		function(){
 			$('.en').fadeIn(0);
