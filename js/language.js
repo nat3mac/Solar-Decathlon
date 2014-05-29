@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$('#englishIcon').click(
 		function(){
-			$('.en').fadeIn();
+			$('.en').fadeIn(0);
 			$('.es').fadeOut(0);
 
 			if(langSet=='es'){
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	$('#spanishIcon').click(
 		function(){
 			$('.en').fadeOut(0);
-			$('.es').fadeIn();
+			$('.es').fadeIn(0);
 
 			if(langSet=='en'){
 				$('#englishIcon').css('opacity', '.3');

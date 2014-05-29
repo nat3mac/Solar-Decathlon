@@ -51,7 +51,7 @@ h3{
 	display: none;
 }
 #energyUse{
-	background-image: url(../img/piegraph.svg);
+	/*background-image: url(../img/piegraph.svg);*/
 	display: none;
 }
 #settingsBar{
@@ -95,6 +95,7 @@ h3{
 .lightSwitch{
 	opacity: .3;
 }
+.lightSwith:hover {cursor: pointer;}
 #roomIcon1{
 	position: absolute;
 	margin-top: 110px;
