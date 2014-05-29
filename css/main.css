@@ -12,12 +12,14 @@ body {
 }
 
 header{
-	padding:8px 16px;
+	padding:8px;
 }
 
 h1{
 	font-weight: 300;
 	color: #7ad3ab;
+	width:50%;
+	padding-left: 32px;
 }
 h3{
 	font-weight: 400;
@@ -60,7 +62,9 @@ h3{
 #config{
 	margin-left: 10px;
 	line-height: 55px;
-	float: left;
+}
+#config:hover{
+	cursor:pointer;
 }
 .configText{
 	float: left;
@@ -78,11 +82,13 @@ h3{
 	margin-top: 2px;
 }
 #englishIcon{
+	opacity: .3;
 	margin-right: 10px;
 }
-#spanishIcon{
-	opacity: .3;
-}
+#spanishIcon{}
+
+.en{display: none;}
+
 .lightSwitch{
 	opacity: .3;
 }
