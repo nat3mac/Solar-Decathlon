@@ -13,6 +13,7 @@ body {
 
 header{
 	padding:8px;
+
 }
 
 h1{
@@ -20,6 +21,8 @@ h1{
 	color: #7ad3ab;
 	width:50%;
 	padding-left: 32px;
+	background-image: url('../img/edit.png');
+	background-position: left;
 }
 h3{
 	font-weight: 400;
