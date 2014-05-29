@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M256.994-0.026C115.602-0.026,0.98,114.596,0.98,255.985C0.98,397.379,115.599,512,256.994,512
+				c141.393,0,256.012-114.621,256.012-256.015C513.006,114.596,398.385-0.026,256.994-0.026z M256.994,393.669
+				c-76.042,0-137.685-61.642-137.685-137.684c0-76.04,61.643-137.68,137.685-137.68c76.04,0,137.681,61.641,137.681,137.68
+				C394.675,332.027,333.028,393.669,256.994,393.669z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<g>
+				<g>
+					<g>
+						<g>
+							<g>
+								<path fill="#A7E1C7" d="M256.994,255.985l226.339,43.997c24.301-125.004-57.34-246.037-182.345-270.337
+									c-14.999-2.917-28.715-4.236-43.995-4.236V255.985z"/>
+							</g>
+						</g>
+						<g>
+							<g>
+								<path fill="#7AD3AB" d="M256.994,255.985l135.533,186.543c49.449-35.931,79.143-82.541,90.81-142.544L256.994,255.985z"/>
+							</g>
+						</g>
+						<g>
+							<g>
+								<path fill="#4EC48F" d="M256.994,255.985L26.977,239.904c-8.883,127.036,86.896,237.216,213.93,246.098
+									c55.897,3.905,106.285-10.542,151.616-43.474L256.994,255.985z"/>
+							</g>
+						</g>
+						<g>
+							<g>
+								<path fill="#22B573" d="M256.994,255.985V25.41c-122.251,0-221.488,92.541-230.017,214.494L256.994,255.985z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 196.1089 261.4893)" fill="#CCCCCC" font-family="'Roboto-Regular'" font-size="72">60%</text>
+<g>
+	<text transform="matrix(1 0 0 1 143.5322 295.3818)" fill="#CCCCCC" font-family="'RobotoCondensed-Bold'" font-size="24">14 horas de carga faltan</text>
+</g>
+</svg>

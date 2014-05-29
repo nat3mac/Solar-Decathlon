@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 * {
-	margin:0; padding:0;
+	margin:0; padding:0; background-repeat: no-repeat;
 }
 
 body {
@@ -30,10 +30,10 @@ h3{
 	margin: auto;
 }
 .primaryElement{
-	margin-left: 200px;
+	margin-left: 128px;
 	margin-top: 0px;
 	float: left;
-	width: 400px;
+	width: 600px;
 	height: 640px;
 	position: relative;
 }
@@ -46,8 +46,7 @@ h3{
 	display: none;
 }
 #energyUse{
-	background-image: url(../img/piegraph.png);
-	background-size: 95%;
+	background-image: url(../img/piegraph.svg);
 	display: none;
 }
 #settingsBar{

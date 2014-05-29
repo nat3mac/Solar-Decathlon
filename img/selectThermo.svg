@@ -3,12 +3,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="450px" height="320px" viewBox="0 0 450 320" enable-background="new 0 0 450 320" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="272" y1="267" x2="272" y2="55.0005">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="229" y1="267" x2="229" y2="55.0005">
 	<stop  offset="0" style="stop-color:#00979D"/>
 	<stop  offset="0.5" style="stop-color:#7AD3AB"/>
 	<stop  offset="1" style="stop-color:#BFF486"/>
 </linearGradient>
-<rect x="219" y="55" fill="url(#SVGID_1_)" width="106" height="212"/>
-<polygon fill="#7AD3AB" points="218.698,161 193.345,135.647 192.992,136 140,136 140,186 192.992,186 193.345,186.354 "/>
-<rect x="152" y="148" fill="#00A99D" width="32" height="26"/>
+<rect x="176" y="55" fill="url(#SVGID_1_)" width="106" height="212"/>
+<polygon fill="#7AD3AB" points="175.698,161 161.943,147.526 161.751,148 112,148 112,174 161.751,174 161.943,174.473 "/>
+<rect x="119" y="154" fill="#00A99D" width="38" height="14"/>
 </svg>
