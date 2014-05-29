@@ -50,4 +50,16 @@
 <g>
 	<text transform="matrix(1 0 0 1 143.5322 295.3818)" fill="#CCCCCC" font-family="'RobotoCondensed-Bold'" font-size="24">14 horas de carga faltan</text>
 </g>
+<g>
+	<text transform="matrix(1 0 0 1 88.6196 135.9204)" fill="#4D4D4D" font-family="'RobotoCondensed-Bold'" font-size="18">Lavadores</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 364.834 135.9204)" fill="#4D4D4D" font-family="'RobotoCondensed-Bold'" font-size="18">Cocina</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 98.3335 403.9502)" fill="#4D4D4D" font-family="'RobotoCondensed-Bold'" font-size="18">Climatizador</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 370.5596 359.5518)" fill="#4D4D4D" font-family="'RobotoCondensed-Bold'" font-size="18">Iluminación</text>
+</g>
 </svg>
