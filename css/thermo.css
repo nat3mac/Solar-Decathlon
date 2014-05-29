@@ -29,8 +29,9 @@
 #temp, #degs {
 	color:#fff;
 	opacity:0.7;
-	font-family:'Raleway', sans-serif;
+	font-family:'Roboto', sans-serif;
 	font-size:24px;
+	font-weight: 300;
 	text-align:center;
 	position: relative;
 	top: 50%;

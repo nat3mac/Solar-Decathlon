@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 * {
 	margin:0; padding:0;
 }
@@ -8,17 +8,18 @@ body {
 	max-width:1280px;
 	max-height:756px;
 	margin:auto;
+	font-family: 'Roboto', sans-serif;
 }
+h1{font-weight: 300;}
 
 h3{
-	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	color: #7ad3ab;
 	font-size: 30px;
 }
 #sizing{
 	width: 1280px;
-	height: 800px;
+	height: 640px;
 	border-width: 3px;
 	border-color: black;
 	border: solid;
@@ -39,7 +40,7 @@ h3{
 	background-image: url(../img/roomoutline.png);
 }
 #energyUse{
-	background-image: url(../img/piegraph.png);
+
 }
 #settingsBar{
 	margin-top: 20px;
@@ -56,6 +57,8 @@ h3{
 }
 #configText{
 	float: left;
+	font-size: 18px;
+	font-weight: 400;
 }
 #configIcon{
 	float: left;
