@@ -11,6 +11,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.en{display: none;}
+
 header{
 	padding:8px;
 
@@ -79,19 +81,6 @@ h3{
 	margin-top: 10px;
 	margin-right: 8px;
 }
-#lang{
-	float: right;
-	margin-right: 15px;
-	margin-top: 2px;
-}
-.langSelect:hover{cursor: pointer;}
-#englishIcon{
-	opacity: .3;
-	margin-right: 10px;
-}
-#spanishIcon{}
-
-.en{display: none;}
 
 .lightSwitch{
 	opacity: .3;

@@ -3,6 +3,7 @@ $(document).ready(function(){
 var tempsetting;
 var tempdif;
 var temptop;
+var tempUnit='cel';
 
 $('#slider').draggable({
         containment:'parent',
@@ -15,3 +16,7 @@ $('#slider').draggable({
         }
     });
 });
+
+/*if (tempUnit=='far'){
+	$('#temp').html(Math.round(((30-tempdif)*1.8)+32))
+}*/
