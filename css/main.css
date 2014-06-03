@@ -123,14 +123,13 @@ h3{
 }
 .selectionButton{
 	width: 450px;
-	height: 320px;
+	height: 210px;
 }
 
 #selectThermo:hover, #selectLights:hover, #selectFeedback:hover {
 	cursor:pointer;
 }
 #selectThermo{
-	display: none;
 	background-image: url(../img/selectThermo.svg);
 }
 #selectLights{
@@ -138,4 +137,12 @@ h3{
 }
 #selectFeedback{
 	background-image: url(../img/selectEnergy.svg);
+}
+.selected{
+	border-color: #ababab;
+	border-style: solid;
+	border-left-width: 10px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
 }
