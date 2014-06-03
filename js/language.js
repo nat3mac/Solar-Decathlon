@@ -19,6 +19,7 @@ $(document).ready(function(){
 				$('#englishIcon').css('opacity', '1');
 				$('#spanishIcon').css('opacity', '.3');
 				
+				
 	
 			}
 		}
@@ -32,12 +33,21 @@ $(document).ready(function(){
 				$('#englishIcon').css('opacity', '.3');
 				$('#spanishIcon').css('opacity', '1');
 				
+				
 			}
 		}
 	);
 
-	$('#configEn').click(setEn);
+	$('#configEn').click(function(){
+	setEn();
+	$('#configEn').css('background', '#4ec48f');
+	$('#configEs').css('background', '#4d4d4d');
+	});
 		
-	$('#configEs').click(setEs);
+	$('#configEs').click(function(){
+	setEs();
+	$('#configEs').css('background', '#4ec48f');
+	$('#configEn').css('background', '#4d4d4d');
+	});
 
 });

@@ -82,6 +82,19 @@ h3{
 	margin-right: 8px;
 }
 
+.setting{
+	float:left;
+	width:240px;
+	}
+.setting .langSelect, .setting .tempSelect {
+	float:left;
+	padding:8px 16px;
+	text-align:center;
+	width:80px;
+	background:#4d4d4d;
+	color:#fff;
+	}
+
 .lightSwitch{
 	opacity: .3;
 }
