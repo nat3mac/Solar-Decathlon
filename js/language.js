@@ -28,4 +28,8 @@ $(document).ready(function(){
 			}
 		}
 	);
+
+//	$('.english').click(setEn);
+//	$('.spanish').click(setEs);
+
 });
