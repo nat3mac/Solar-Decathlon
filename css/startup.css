@@ -8,15 +8,21 @@
 	top:32px;
 	margin-left: -240px;
 	z-index: 999;
+	padding:16px;
 }
 #shade{
 	width:100%;
 	height:100%;
-	background:#333;
-	opacity: 0.7;
+	background:#000;
+	opacity: 0.5;
 	position: absolute;
 	top:0; right:0; bottom:0; left:0;
-	z-index: 998;
+	z-index: 997;
+}
+#startup h4 {
+	color: #4ec48f;
+	margin-bottom: 8px;
+	
 }
 .okay{
 	position:absolute;
@@ -25,7 +31,7 @@
 	height: 32px;
 	left:50%;
 	margin-left: -64px;
-	background: #7ad3ab;
+	background: #4ec48f;
 	color:#fff;
 	border: none;
 	border-radius: 16px;
