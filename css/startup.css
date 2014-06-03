@@ -1,11 +1,11 @@
 #startup {
 	width:480px;
-	height:360px;
+	height:240px;
 	background:#eee;
 	color:#333;
 	position: absolute;
 	left: 50%;
-	top:32px;
+	top:128px;
 	margin-left: -240px;
 	z-index: 999;
 	padding:16px;
@@ -21,7 +21,7 @@
 }
 #startup h4 {
 	color: #4ec48f;
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 	font-size: 20px;
 	margin-top:-4px;
 	
