@@ -5,15 +5,36 @@
 <title>Home Interface</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/thermo.css">
+<link rel="stylesheet" type="text/css" href="css/startup.css">
 <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.10.4.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/thermo.js"></script>
 <script type="text/javascript" src="js/lights.js"></script>
 <script type="text/javascript" src="js/language.js"></script>
+<script type="text/javascript" src="js/startup.js"></script>
 </head>
 
 <body>
+
+	<section id="start">
+	<div id="startup">
+		<div class="en">
+		<p>Welcome to the energy control system for the Solar Decathlon home.</p>
+		<button class="okay" type="button">Got it!</button>
+		</div>
+		<div class="es">
+		<p>Bienvenidos</p>
+		<button class="okay" type="button">&iexcl;Bueno!</button>
+		</div>
+		<div id="lang">
+				<img id="englishIcon" class="langSelect" src="img/en.png">
+				<img id="spanishIcon" class="langSelect" src="img/es.png">
+		</div>
+	</div>
+	<div id="shade"></div>
+	</section>
+
 	
 	<header>
 		<h1 contenteditable="true">Nuestra Casa</h1>
@@ -67,10 +88,10 @@
 				<h3 class="es" class="configText">Configuraci&oacute;n</h3>
 			</div>
 			
-			<div id="lang">
+			<!--div id="lang">
 				<img id="englishIcon" class="langSelect" src="img/en.png">
 				<img id="spanishIcon" class="langSelect" src="img/es.png">
-			</div>
+			</div-->
 			
 		</div>
 	
