@@ -11,12 +11,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.en{display: none;}
+.en, #configuration {display: none;}
 
 header{
 	padding:8px;
-
 }
+footer{position: absolute; bottom: 0; left: 0;}
 
 h1{
 	font-weight: 300;

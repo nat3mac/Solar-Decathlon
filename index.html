@@ -17,8 +17,7 @@
 
 <body>
 
-	<section id="start">
-	<div id="startup">
+	<section class="dialog" id="startup">
 		<div id="lang">
 				<img id="spanishIcon" class="langSelect" class="english" src="img/es.png">
 				<img id="englishIcon" class="langSelect" class="spanish" src="img/en.png">
@@ -33,9 +32,8 @@
 		<p>Bienvenido al sistema de control de energía para el hogar Solar Decathlon. Esta interfaz le permite ajustar la configuración del termostato, encienda las luces del techo encendida o apagada, y ver que quedan reservas de energía, junto con un desglose de promedio de uso diario.</p>
 		<button class="okay" type="button">&iexcl;Bueno!</button>
 		</div>
-	</div>
-	<div id="shade"></div>
 	</section>
+	<div class="shade"></div>
 
 	
 	<header>
@@ -99,7 +97,15 @@
 	
 	</div>
 
-	<section id="configuration">
+	<section id="configuration" class="dialog">
+		<h4 class="es">Idioma</h4>
+		<h4 class="en">Language</h4>
+		<h4 class="es">Unidad</h4>
+		<h4 class="en">Temperature Units</h4>
+		<button class="okay" type="button">
+			<span class="es">&iexcl;Bueno!</span>
+			<span class="en">Okay!</span>
+		</button>
 
 	</section>
 	

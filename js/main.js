@@ -37,6 +37,15 @@ $(document).ready(function(){
 		}
 	);
 	
+$('#config').click(
+		function(){
+			$('#configuration').fadeIn(200);
+			$('.shade').fadeIn(400);
+		}
+
+	);
+
+
 
 	
 });
