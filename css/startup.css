@@ -18,3 +18,26 @@
 	top:0; right:0; bottom:0; left:0;
 	z-index: 998;
 }
+.okay{
+	position:absolute;
+	bottom: 16px;
+	width: 128px;
+	height: 32px;
+	left:50%;
+	margin-left: -64px;
+	background: #7ad3ab;
+	color:#fff;
+	border: none;
+	border-radius: 16px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.okay:hover{
+	background: #22b573;
+	cursor: pointer;
+	outline: none;
+}
+.okay:active{
+	outline: none;
+}
