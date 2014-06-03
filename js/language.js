@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var langSet='es';
 
 	$('#englishIcon').click(
-		function(){
+		function(setEn){
 			$('.en').fadeIn(0);
 			$('.es').fadeOut(0);
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	);
 	
 	$('#spanishIcon').click(
-		function(){
+		function(setEs){
 			$('.en').fadeOut(0);
 			$('.es').fadeIn(0);
 

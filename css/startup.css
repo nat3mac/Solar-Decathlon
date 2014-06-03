@@ -23,9 +23,18 @@
 	color: #4ec48f;
 	margin-bottom: 16px;
 	font-size: 20px;
-	margin-top:-4px;
-	
 }
+.langSelect:hover{cursor: pointer;}
+
+#lang{
+	position: absolute;
+	top:12px;
+	right:16px;
+}
+#englishIcon{
+	opacity: .3;
+}
+#spanishIcon{margin-right: 4px;}
 .okay{
 	position:absolute;
 	bottom: 16px;
