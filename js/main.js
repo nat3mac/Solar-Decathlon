@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
 	console.log('ready');
-
-
 	
 	$('#selectThermo').click(
 		function(){
