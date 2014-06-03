@@ -121,14 +121,22 @@ h3{
 	height: 640px;
 	width: 450px;
 }
+#selection h3{
+	position:relative;
+	text-align: center;
+}
+
 .selectionButton{
 	width: 450px;
 	height: 210px;
+	background-size: 50%;
+	background-position: bottom;
 }
 
 #selectThermo:hover, #selectLights:hover, #selectFeedback:hover {
 	cursor:pointer;
 }
+
 #selectThermo{
 	background-image: url(../img/selectThermo.svg);
 }
@@ -139,10 +147,8 @@ h3{
 	background-image: url(../img/selectEnergy.svg);
 }
 .selected{
-	border-color: #ababab;
-	border-style: solid;
-	border-left-width: 10px;
-	border-bottom-width: 0px;
-	border-top-width: 0px;
-	border-right-width: 0px;
+	background:#333;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: bottom;
 }
