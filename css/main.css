@@ -11,7 +11,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.en, #configuration {display: none;}
+.en, #configuration, .far {display: none;}
 
 header{
 	padding:8px;
