@@ -2,3 +2,40 @@
 	margin: 0px;
 	padding: 0px;
 }
+body{
+	width: 100%;
+}
+#resolutionArea{
+	margin: auto;
+	width: 1280px;
+	height: 752px;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+}
+header, footer{
+	float: left;
+	width: 100%;
+	height: 80px;
+	background-color: red;
+}
+#activeElement{
+	height: 590px;
+	width: 980px;
+	float: left;
+	padding: 1px 0px 1px 0px;
+	background-color: purple;
+}
+#selectionBar{
+	height: 590px;
+	width: 300px;
+	float: left;
+	padding: 1px 0px 1px 0px;
+	background-color: blue;
+}
+footer{
+	float: left;
+	width: 100%;
+	height: 80px;
+	background-color: green;
+}
