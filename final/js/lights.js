@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
 	//console initialization
-	console.log('main js initialized');
+	console.log('lights js initialized');
 
 }); //close document ready
