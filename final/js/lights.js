@@ -12,37 +12,38 @@ $(document).ready(function(){
 			var light5on = false;
 		//light timers
 			var timeLight1 = 0;
-			var timeLight2 = 30;
-			var timeLight3 = 40;
-			var timeLight4 = 15;
+			var timeLight2 = 1800;
+			var timeLight3 = 4000;
+			var timeLight4 = 1500;
 			var timeLight5 = 0;
 	
 	//light tick function
 	function lightTick(){
-		if(light1on=true){
+		if(light1on==true){
 			timeLight1++;
 		};
-		if(light2on=true){
-			timeLight1++;
+		if(light2on==true){
+			timeLight2++;
 		};
-		if(light3on=true){
-			timeLight1++;
+		if(light3on==true){
+			timeLight3++;
 		};
-		if(light4on=true){
-			timeLight1++;
+		if(light4on==true){
+			timeLight4++;
 		};
-		if(light5on=true){
-			timeLight1++;
+		if(light5on==true){
+			timeLight5++;
 		};
-		$('.timeLight1').html(timeLight1);
-		$('.timeLight2').html(timeLight2);
-		$('.timeLight3').html(timeLight3);
-		$('.timeLight4').html(timeLight4);
-		$('.timeLight5').html(timeLight5);
+		$('.timeLight1').html(((timeLight1-(timeLight1%60))/60) + ' min. ' + (timeLight1%60) + ' sec.');
+		$('.timeLight2').html(((timeLight2-(timeLight2%60))/60) + ' min. ' + (timeLight2%60) + ' sec.');
+		$('.timeLight3').html(((timeLight3-(timeLight3%60))/60) + ' min. ' + (timeLight3%60) + ' sec.');
+		$('.timeLight4').html(((timeLight4-(timeLight4%60))/60) + ' min. ' + (timeLight4%60) + ' sec.');
+		$('.timeLight5').html(((timeLight5-(timeLight5%60))/60) + ' min. ' + (timeLight5%60) + ' sec.');
+
 	};
 	
 	//light ticker
-	setInterval(lightTick, 60000);
+	setInterval(lightTick, 1000);
 	
 	
 	//initial light tick
