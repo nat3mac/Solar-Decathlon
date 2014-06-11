@@ -7,7 +7,7 @@ $(document).ready(function(){
 	updatePercent();
 	
 	function updatePercent() {
-		$('#percentage').html(percentage + '%');
+		$('#percentage, #dynamicPercent').html(percentage + '%');
 	}
 
 	window.setInterval(deplete, 49382);
@@ -22,5 +22,4 @@ $(document).ready(function(){
 		updatePercent();
 	};
 
-	$('#dynamicPercent').html(percentage + '%');
 }); //close document ready

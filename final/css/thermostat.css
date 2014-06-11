@@ -80,6 +80,7 @@
 }
 #dynamicCel h6, #dynamicFar h6{
 	font-size: 60px;
+	font-weight: 300;
 }
 #dynamicCel p, #dynamicFar p{
 	font-size: 30px;
