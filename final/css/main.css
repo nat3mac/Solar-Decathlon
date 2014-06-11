@@ -22,6 +22,11 @@ h4{
 	font-weight: 400;
 	color: #7ad3ab;
 }
+h5{
+	font-size: 12px;
+	font-weight: 400;
+	color: #7ad3ab;
+}
 #resolutionArea{
 	margin: auto;
 	width: 1280px;

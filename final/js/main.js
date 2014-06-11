@@ -63,7 +63,7 @@ $(document).ready(function(){
 			currentMin =(currentMin < 10 ? '0' : '') + currentMin;
 			currentSec = (currentSec < 10 ? '0' : '') + currentSec;
 			var amPm = (currentHour < 12) ? 'AM' : 'PM';
-			currentHour = (currentHour > 12) ? currentHour - 12 : currentHours;
+			currentHour = (currentHour > 12) ? currentHour - 12 : currentHour;
 			currentHour = (currentHour == 0) ? 12 : currentHour;
 			//write time
 			var enDate = monthTextEn + ' ' + currentDay;

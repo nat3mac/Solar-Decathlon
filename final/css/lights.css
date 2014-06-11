@@ -5,6 +5,7 @@
 }
 .lightIndicator{
 	position: absolute;
+	text-align: center;
 }
 #light1{
 	top: 140px;
