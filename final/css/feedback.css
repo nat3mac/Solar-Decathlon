@@ -14,3 +14,9 @@
 	color: #7ad3ab;
 	padding-top: 32px;
 }
+.icon {position:absolute;}
+#bulb {top:348px; left:260px;}
+#fan {top:220px; left:628px;}
+#fridge {top:520px; left:352px;}
+#cook {top:498px; left:608px;}
+#wash {top:178px; left:346px;}
