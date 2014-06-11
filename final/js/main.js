@@ -70,7 +70,14 @@ $(document).ready(function(){
 		}
 	
 	//config code
-	
+		//show config menu
+		$('#configButton').click(function(){
+			$('#config').fadeIn(200);
+		});
+		//hide config menu
+		$('#configClose').click(function(){
+			$('#config').fadeOut(200);
+		});
 	
 	//language code
 	
