@@ -8,6 +8,10 @@ body{
 	background-color: #eeeeee;
 	font-family: 'Roboto', sans-serif;
 }
+h1{
+	font-weight: 300;
+	color: #7ad3ab;
+}
 h3{
 	font-weight: 400;
 	color: #7ad3ab;

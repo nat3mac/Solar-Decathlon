@@ -1,0 +1,10 @@
+#titleBox{
+	width:50%;
+	height: 80px;
+	padding-left: 32px;
+	margin-left: 40px;
+	background-image: url(../img/edit.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	line-height: 80px;
+}
