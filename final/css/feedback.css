@@ -1,10 +1,10 @@
 #percentage{
-	font-size:72px;
+	font-size:96px;
 	color:#7ad3ab;
-	font-weight: 300;
+	font-weight: 100;
 	position:absolute;
 	left:398px;
-	top:50%;
+	top:290px;
 	width:200px;
 	text-align: center;
 }
