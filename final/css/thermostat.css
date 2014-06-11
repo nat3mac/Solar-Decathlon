@@ -1,0 +1,15 @@
+.thermoColumn{
+	float: left;
+}
+#slider{
+	width: 600px;
+	height: 588px;
+	background-color: green;
+	float: left;
+}
+#readOuts{
+	width: 380px;
+	height: 588px;
+	background-color: white;
+	float: left;
+}
