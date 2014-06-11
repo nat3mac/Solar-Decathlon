@@ -61,3 +61,14 @@
 	position: absolute;
 	top: 0px;
 }
+#setReadOutFar{
+	width: 380px;
+	height: 300px;
+}
+#setReadOutCel{
+	width: 380px;
+	height: 300px;
+}
+#readOuts p{
+	margin-left: 150px;
+}

@@ -32,6 +32,16 @@ h5{
 	font-weight: 400;
 	color: #7ad3ab;
 }
+h6{
+	font-weight: 100;
+	color: #7ad3ab;
+	font-size: 150px;
+}
+p{
+	font-weight: 100;
+	color: #7ad3ab;
+	font-size: 70px;
+}
 #resolutionArea{
 	margin: auto;
 	width: 1280px;
