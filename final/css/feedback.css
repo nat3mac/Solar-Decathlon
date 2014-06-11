@@ -20,3 +20,8 @@
 #fridge {top:520px; left:352px;}
 #cook {top:498px; left:608px;}
 #wash {top:178px; left:346px;}
+.icon:hover {
+	-webkit-filter:brightness(10);
+	-moz-filter:brightness(10);
+	filter:brightness(10);
+}

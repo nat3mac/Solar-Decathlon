@@ -22,4 +22,7 @@ $(document).ready(function(){
 		updatePercent();
 	};
 
+	$(function() {
+    $( document ).tooltip();
+	});
 }); //close document ready
