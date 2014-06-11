@@ -1,7 +1,6 @@
 #slider{
 	width: 600px;
 	height: 588px;
-	background-color: green;
 	float: left;
 }
 #readOuts{
@@ -18,4 +17,22 @@
 	height: 230px;
 	width: 380px;
 	background-color: yellow;
+}
+#sliderElement{
+	margin: auto;
+	height: 500px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.ui-slider-handle {
+width:24px;
+height:24px;
+position:absolute;
+top:-7px;
+margin-left:-12px;
+z-index:200;
+background:url(slider-button.png);
 }
