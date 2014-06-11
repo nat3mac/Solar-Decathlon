@@ -1,0 +1,28 @@
+#floorPlan{
+	background-image: url(../img/outline.svg);
+	height: 588px;
+	position: relative;
+}
+.lightIndicator{
+	position: absolute;
+}
+#light1{
+	top: 140px;
+	left: 190px;
+}
+#light2{
+	top: 140px;
+	left: 465px;
+}
+#light3{
+	top: 140px;
+	right: 190px;
+}
+#light4{
+	bottom: 140px;
+	left: 190px;
+}
+#light5{
+	bottom: 140px;
+	right: 190px;
+}
