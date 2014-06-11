@@ -39,10 +39,10 @@ $(document).ready(function(){
 	$('#light1').click(
 		function(){
 			if(light1on==false){
-				$('#light1icon').attr('src', 'img/lightfilled.png');
+				$('#light1icon').attr('src', 'img/lightfilled.svg');
 				light1on=true;
 			}else if(light1on==true){
-				$('#light1icon').attr('src', 'img/lighticon.png');
+				$('#light1icon').attr('src', 'img/lighticon.svg');
 				light1on=false;
 			}
 		}
@@ -50,10 +50,10 @@ $(document).ready(function(){
 	$('#light2').click(
 		function(){
 			if(light2on==false){
-				$('#light2icon').attr('src', 'img/lightfilled.png');
+				$('#light2icon').attr('src', 'img/lightfilled.svg');
 				light2on=true;
 			}else if(light2on==true){
-				$('#light2icon').attr('src', 'img/lighticon.png');
+				$('#light2icon').attr('src', 'img/lighticon.svg');
 				light2on=false;
 			}
 		}
@@ -61,10 +61,10 @@ $(document).ready(function(){
 	$('#light3').click(
 		function(){
 			if(light3on==false){
-				$('#light3icon').attr('src', 'img/lightfilled.png');
+				$('#light3icon').attr('src', 'img/lightfilled.svg');
 				light3on=true;
 			}else if(light3on==true){
-				$('#light3icon').attr('src', 'img/lighticon.png');
+				$('#light3icon').attr('src', 'img/lighticon.svg');
 				light3on=false;
 			}
 		}
@@ -72,10 +72,10 @@ $(document).ready(function(){
 	$('#light4').click(
 		function(){
 			if(light4on==false){
-				$('#light4icon').attr('src', 'img/lightfilled.png');
+				$('#light4icon').attr('src', 'img/lightfilled.svg');
 				light4on=true;
 			}else if(light4on==true){
-				$('#light4icon').attr('src', 'img/lighticon.png');
+				$('#light4icon').attr('src', 'img/lighticon.svg');
 				light4on=false;
 			}
 		}
@@ -83,10 +83,10 @@ $(document).ready(function(){
 	$('#light5').click(
 		function(){
 			if(light5on==false){
-				$('#light5icon').attr('src', 'img/lightfilled.png');
+				$('#light5icon').attr('src', 'img/lightfilled.svg');
 				light5on=true;
 			}else if(light5on==true){
-				$('#light5icon').attr('src', 'img/lighticon.png');
+				$('#light5icon').attr('src', 'img/lighticon.svg');
 				light5on=false;
 			}
 		}
