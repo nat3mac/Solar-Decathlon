@@ -3,37 +3,86 @@ $(document).ready(function(){
 	//console initialization
 	console.log('lights js initialized');
 	
-	//light tick function
-	function lightTick(){
-		if(light1on==true){
-			timeLight1++;
-		};
-		if(light2on==true){
-			timeLight2++;
-		};
-		if(light3on==true){
-			timeLight3++;
-		};
-		if(light4on==true){
-			timeLight4++;
-		};
-		if(light5on==true){
-			timeLight5++;
-		};
-		$('.timeLight1').html(((timeLight1-(timeLight1%60))/60) + ' min. ' + (timeLight1%60) + ' s.');
-		$('.timeLight2').html(((timeLight2-(timeLight2%60))/60) + ' min. ' + (timeLight2%60) + ' s.');
-		$('.timeLight3').html(((timeLight3-(timeLight3%60))/60) + ' min. ' + (timeLight3%60) + ' s.');
-		$('.timeLight4').html(((timeLight4-(timeLight4%60))/60) + ' min. ' + (timeLight4%60) + ' s.');
-		$('.timeLight5').html(((timeLight5-(timeLight5%60))/60) + ' min. ' + (timeLight5%60) + ' s.');
+	//light functions
+		
+		//light tick function
+		function lightTick(){
+			if(light1on==true){
+				timeLight1++;
+			};
+			if(light2on==true){
+				timeLight2++;
+			};
+			if(light3on==true){
+				timeLight3++;
+			};
+			if(light4on==true){
+				timeLight4++;
+			};
+			if(light5on==true){
+				timeLight5++;
+			};
+			$('.timeLight1').html(((timeLight1-(timeLight1%60))/60) + ' min. ' + (timeLight1%60) + ' s.');
+			$('.timeLight2').html(((timeLight2-(timeLight2%60))/60) + ' min. ' + (timeLight2%60) + ' s.');
+			$('.timeLight3').html(((timeLight3-(timeLight3%60))/60) + ' min. ' + (timeLight3%60) + ' s.');
+			$('.timeLight4').html(((timeLight4-(timeLight4%60))/60) + ' min. ' + (timeLight4%60) + ' s.');
+			$('.timeLight5').html(((timeLight5-(timeLight5%60))/60) + ' min. ' + (timeLight5%60) + ' s.');
 
-	};
+		};
+		
+		//total count function
+		function lightTotalCheck(){
+			lightOnCount=5;
+			lightOffCount=0;
+			if(light1on==true){
+				lightOnCount++;
+				lightOffCount--;
+			}else if(light1on==false){
+				lightOffCount++
+				lightOnCount--;
+			};
+			if(light2on==true){
+				lightOnCount++;
+				lightOffCount--;
+			}else if(light2on==false){
+				lightOffCount++
+				lightOnCount--;
+			};
+			if(light3on==true){
+				lightOnCount++;
+				lightOffCount--;
+			}else if(light3on==false){
+				lightOffCount++
+				lightOnCount--;
+			};
+			if(light4on==true){
+				lightOnCount++;
+				lightOffCount--;
+			}else if(light4on==false){
+				lightOffCount++
+				lightOnCount--;
+			};
+			if(light5on==true){
+				lightOnCount++;
+				lightOffCount--;
+			}else if(light5on==false){
+				lightOffCount++
+				lightOnCount--;
+			};
+			$('#onCount').html('x' + lightOnCount);
+			$('#offCount').html('x' + lightOffCount);
+		};
+	
+
+	
+	//initial light tick
+	lightTick();
+	lightTotalCheck();
 	
 	//light ticker
 	setInterval(lightTick, 1000);
 	
 	
-	//initial light tick
-	lightTick();
 	
 	//light control
 	$('#light1').click(
@@ -44,7 +93,8 @@ $(document).ready(function(){
 			}else if(light1on==true){
 				$('#light1icon').attr('src', 'img/lighticon.svg');
 				light1on=false;
-			}
+			};
+			lightTotalCheck();
 		}
 	);
 	$('#light2').click(
@@ -56,6 +106,7 @@ $(document).ready(function(){
 				$('#light2icon').attr('src', 'img/lighticon.svg');
 				light2on=false;
 			}
+			lightTotalCheck();
 		}
 	);
 	$('#light3').click(
@@ -67,6 +118,7 @@ $(document).ready(function(){
 				$('#light3icon').attr('src', 'img/lighticon.svg');
 				light3on=false;
 			}
+			lightTotalCheck();
 		}
 	);
 	$('#light4').click(
@@ -78,6 +130,7 @@ $(document).ready(function(){
 				$('#light4icon').attr('src', 'img/lighticon.svg');
 				light4on=false;
 			}
+			lightTotalCheck();
 		}
 	);
 	$('#light5').click(
@@ -89,6 +142,7 @@ $(document).ready(function(){
 				$('#light5icon').attr('src', 'img/lighticon.svg');
 				light5on=false;
 			}
+			lightTotalCheck();
 		}
 	);
 

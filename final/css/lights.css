@@ -30,14 +30,15 @@
 }
 .lightCount{
 	height: 70px;
-	width: 100px;
+	width: 120px;
 	margin: auto;
-	padding-top: 10px;
+	margin-left: 18px;
+	padding-top: 30px;
 	float: left;
 }
 #onCount, #offCount, #offCountIcon, #onCountIcon{
 	float: left;
 }
 #onCount, #offCount{
-	padding-top: 10px;
+	padding-top: 45px;
 }
