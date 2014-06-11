@@ -7,4 +7,10 @@
 	background-position: left;
 	background-repeat: no-repeat;
 	line-height: 80px;
+	float: left;
+}
+#clock{
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
 }

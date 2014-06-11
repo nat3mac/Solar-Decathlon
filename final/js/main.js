@@ -38,9 +38,36 @@ $(document).ready(function(){
 	//state first run
 	stateRefresh();
 	
+	//liveclock
+		//ticking
+		setInterval(clockTick, 500);
+		//tick function
+		function clockTick(){
+			//vars
+			var currentTime = new Date();
+			var currentMonth = currentTime.getMonth();
+			var currentDay = currentTime.getDate();
+			var currentHour = currentTime.getHours();
+			var currentMin = currentTime.getMinutes();
+			var currentSec = currentTime.getSeconds();
+			var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+			var monthText = months[currentMonth];
+			//convert to 12hr format
+			currentMin =(currentMin < 10 ? '0' : '') + currentMin;
+			currentSec = (currentSec < 10 ? '0' : '') + currentSec;
+			var amPm = (currentHour < 12) ? 'AM' : 'PM';
+			currentHour = (currentHour > 12) ? currentHour - 12 : currentHours;
+			currentHour = (currentHour == 0) ? 12 : currentHour;
+			//write time
+			var currentTimeString = monthText + ' ' + currentDay + ' ' + currentHour + ':' + currentMin + ':' + currentSec+ ' ' + amPm;
+			$('#clockText').html(currentTimeString);
+		}
+	
 	//language code
 	
 	//unit code
+	
+	
 	
 	//developer buttons
 	$('#englishDevButton').click(function(){
