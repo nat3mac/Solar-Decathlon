@@ -30,7 +30,10 @@
 .ui-slider-vertical {
 	width: 8px;
 	height: 100px;
-	background-color: #7ad3ab;
+	background: -webkit-linear-gradient(#deec74, #7ad3ab, #3cadff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#deec74, #7ad3ab, #3cadff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#deec74, #7ad3ab, #3cadff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#deec74, #7ad3ab, #3cadff); /* Standard syntax */
 	border-width: 0px;
 }
 .ui-slider-vertical .ui-slider-handle {
