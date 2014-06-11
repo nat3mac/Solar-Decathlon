@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DES 157 Final Project</title>
+<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="js/language.js"></script>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+* {
+	margin:0; padding:0; background-repeat: no-repeat;
+}
+
+body {
+	background: #4d4d4d;
+	max-width:1280px;
+	max-height:756px;
+	margin:auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.en, #configuration, .far {display: none;}
+.dialog{
+	width:480px;
+	height:240px;
+	background:#eee;
+	color:#333;
+	position: absolute;
+	left: 50%;
+	top:128px;
+	margin-left: -240px;
+	z-index: 999;
+	padding:16px;
+	box-shadow: 0px 4px 16px rgba(0,0,0,0.5);
+}
+.shade{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity: 0.5;
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+	z-index: 997;
+}
+.dialog h4 {
+	color: #4ec48f;
+	margin-bottom: 16px;
+	font-size: 20px;
+}
+.langSelect:hover{cursor: pointer;}
+
+#lang{
+	position: absolute;
+	top:12px;
+	right:16px;
+}
+#englishIcon{
+	opacity: .3;
+}
+#spanishIcon{margin-right: 4px;}
+.okay{
+	position:absolute;
+	bottom: 16px;
+	width: 128px;
+	height: 32px;
+	left:50%;
+	margin-left: -64px;
+	background: #4ec48f;
+	color:#fff;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 6px;
+	padding-right: 2px;
+
+}
+.okay:hover{
+	background: #22b573;
+	cursor: pointer;
+	outline: none;
+}
+.okay:active{
+	outline: none;
+}
+</style>
+</head>
+<body>
+<section class="dialog" id="startup">
+		<div id="lang">
+				<img id="spanishIcon" class="langSelect" class="english" src="img/es.png">
+				<img id="englishIcon" class="langSelect" class="spanish" src="img/en.png">
+		</div>
+		<div class="en">
+		<h4>Solar Decathlon Home Interface</h4>
+		<p>Welcome to the energy control system for the Solar Decathlon home. This proposed interface allows you to adjust the thermostat setting, turn overhead lights on or off, and view remaining energy reserves along with a breakdown of average daily usage.</p>
+		
+		</div>
+		<div class="es">
+		<h4>Interfaz de Casa Solar Decathlon</h4>
+		<p>Bienvenido al sistema de control de energ&iacute;a para el hogar Solar Decathlon. Esta interfaz le permite ajustar la configuraci&oacute;n del termostato, encender o apagar las luces, y ver la cantidad en sus reservas de energ&iacute;a, junto con un an&aacute;lisis de promedio de uso diario.</p>
+		
+		</div>
+		<a href="interface.html" class="okay"><span class="en">Got it!</span><span class="es">&iexcl;Bueno!</span></a>
+	</section>
+</body>
+</html>
