@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,100);
 *{
 	margin: 0px;
 	padding: 0px;
@@ -26,11 +26,6 @@ h5{
 	font-size: 12px;
 	font-weight: 400;
 	color: #7ad3ab;
-}
-h6{
-	font-size:64px;
-	color:#7ad3ab;
-	font-weight: 300;
 }
 #resolutionArea{
 	margin: auto;
