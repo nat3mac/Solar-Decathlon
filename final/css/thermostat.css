@@ -9,7 +9,8 @@
 	float: left;
 }
 #tempSetReadOut{
-	height: 358px;
+	height: 338px;
+	padding-top: 20px;
 	width: 380px;
 }
 #tempCurrentReadOut{
