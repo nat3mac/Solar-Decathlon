@@ -7,6 +7,15 @@
 #readOuts{
 	width: 380px;
 	height: 588px;
-	background-color: white;
 	float: left;
+}
+#tempSetReadOut{
+	height: 294px;
+	width: 380px;
+	background-color: blue;
+}
+#tempCurrentReadOut{
+	height: 294px;
+	width: 380px;
+	background-color: yellow;
 }
