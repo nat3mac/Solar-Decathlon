@@ -20,11 +20,11 @@ $(document).ready(function(){
 		if(light5on==true){
 			timeLight5++;
 		};
-		$('.timeLight1').html(((timeLight1-(timeLight1%60))/60) + ' min. ' + (timeLight1%60) + ' sec.');
-		$('.timeLight2').html(((timeLight2-(timeLight2%60))/60) + ' min. ' + (timeLight2%60) + ' sec.');
-		$('.timeLight3').html(((timeLight3-(timeLight3%60))/60) + ' min. ' + (timeLight3%60) + ' sec.');
-		$('.timeLight4').html(((timeLight4-(timeLight4%60))/60) + ' min. ' + (timeLight4%60) + ' sec.');
-		$('.timeLight5').html(((timeLight5-(timeLight5%60))/60) + ' min. ' + (timeLight5%60) + ' sec.');
+		$('.timeLight1').html(((timeLight1-(timeLight1%60))/60) + ' min. ' + (timeLight1%60) + ' s.');
+		$('.timeLight2').html(((timeLight2-(timeLight2%60))/60) + ' min. ' + (timeLight2%60) + ' s.');
+		$('.timeLight3').html(((timeLight3-(timeLight3%60))/60) + ' min. ' + (timeLight3%60) + ' s.');
+		$('.timeLight4').html(((timeLight4-(timeLight4%60))/60) + ' min. ' + (timeLight4%60) + ' s.');
+		$('.timeLight5').html(((timeLight5-(timeLight5%60))/60) + ' min. ' + (timeLight5%60) + ' s.');
 
 	};
 	
