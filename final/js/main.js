@@ -90,6 +90,9 @@ $(document).ready(function(){
 		$('#configClose').click(function(){
 			$('#config').fadeOut(200);
 		});
+		$('#closeButton').click(function(){
+			$('#config').fadeOut(200);
+		});
 		//toggles
 			//language
 			$('#configEn').click(function(){
@@ -110,18 +113,4 @@ $(document).ready(function(){
 				stateRefresh();
 			});
 			
-	//language code
-	
-	//unit code
-	
-	//developer buttons
-	$('#englishDevButton').click(function(){
-		langSet='en';
-		stateRefresh();
-	});
-	$('#spanishDevButton').click(function(){
-		langSet='es';
-		stateRefresh();
-	});
-	
 }); //close document ready
