@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$('#selectFeedback').click(function(){
 		$('#feedback').fadeIn(200);
 		$('#lights').fadeOut(0);
-		$('#thermo').fadeOut(0);
+		$('#thermostat').fadeOut(0);
 		$('#selectFeedback').css('backgroundColor', '#303030')
 		$('#selectLights').css('backgroundColor', '#4d4d4d')
 		$('#selectThermo').css('backgroundColor', '#4d4d4d')
