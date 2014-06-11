@@ -10,12 +10,12 @@
 	float: left;
 }
 #tempSetReadOut{
-	height: 294px;
+	height: 358px;
 	width: 380px;
 	background-color: blue;
 }
 #tempCurrentReadOut{
-	height: 294px;
+	height: 230px;
 	width: 380px;
 	background-color: yellow;
 }
