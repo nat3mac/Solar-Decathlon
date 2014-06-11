@@ -3,17 +3,6 @@ $(document).ready(function(){
 	//console initialization
 	console.log('main js initialized');
 	
-	//variables
-	
-		//language
-		var langSet = 'en';
-		
-		//units
-		var unitSet = 'far';
-		
-		//thermostat
-		var tempSet = 20;
-	
 	//general functions
 		
 		//state refresh

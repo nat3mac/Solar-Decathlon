@@ -3,20 +3,6 @@ $(document).ready(function(){
 	//console initialization
 	console.log('lights js initialized');
 	
-	//variables
-		//lights
-			var light1on = false;
-			var light2on = false;
-			var light3on = false;
-			var light4on = false;
-			var light5on = false;
-		//light timers
-			var timeLight1 = 0;
-			var timeLight2 = 1800;
-			var timeLight3 = 4000;
-			var timeLight4 = 1500;
-			var timeLight5 = 0;
-	
 	//light tick function
 	function lightTick(){
 		if(light1on==true){

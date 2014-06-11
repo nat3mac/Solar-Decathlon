@@ -6,24 +6,25 @@
 .lightIndicator{
 	position: absolute;
 	text-align: center;
+	width: 100px;
 }
 #light1{
-	top: 140px;
-	left: 190px;
+	top: 120px;
+	left: 160px;
 }
 #light2{
-	top: 140px;
-	left: 465px;
+	top: 120px;
+	left: 440px;
 }
 #light3{
-	top: 140px;
-	right: 190px;
+	top: 120px;
+	right: 160px;
 }
 #light4{
 	top: 370px;
-	left: 190px;
+	left: 160px;
 }
 #light5{
 	top: 370px;
-	right: 190px;
+	right: 160px;
 }
