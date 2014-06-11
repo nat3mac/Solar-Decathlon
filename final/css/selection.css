@@ -4,10 +4,13 @@
 	text-align: center;
 	cursor: pointer;
 	padding-top: 4px;
-	background-color: #404040;
+	background: -webkit-linear-gradient(#404040, #545454);
+	background: -o-linear-gradient(#404040, #545454);
+	background: -moz-linear-gradient(#404040, #545454);
+	background: linear-gradient(#404040, #545454);
 }
 #selectThermo{
-	background-color: #303030;
+	background: #303030;
 }
 #thermoBlock{
 	width: 300px;
@@ -15,7 +18,7 @@
 	height: 196px;
 	position: absolute;
 	z-index: 70;
-	background-color: #303030;
+	background: #303030;
 	opacity: .8;
 }
 #lightsBlock, #feedbackBlock{
@@ -24,7 +27,7 @@
 	height: 196px;
 	position: absolute;
 	z-index: 70;
-	background-color: #303030;
+	background: #303030;
 	display: none;
 	opacity: .8;
 }
