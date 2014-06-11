@@ -17,6 +17,11 @@ h3{
 	color: #7ad3ab;
 	font-size: 30px;
 }
+h4{
+	font-size: 25px;
+	font-weight: 400;
+	color: #7ad3ab;
+}
 #resolutionArea{
 	margin: auto;
 	width: 1280px;
@@ -47,7 +52,6 @@ footer{
 	float: left;
 	width: 100%;
 	height: 80px;
-	background-color: green;
 }
 #config{
 	width: 1280px;

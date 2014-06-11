@@ -69,11 +69,12 @@ $(document).ready(function(){
 			$('#dateText .es').html(esDate);
 		}
 	
+	//config code
+	
+	
 	//language code
 	
 	//unit code
-	
-	
 	
 	//developer buttons
 	$('#englishDevButton').click(function(){
