@@ -80,3 +80,6 @@ footer{
 	z-index: 90;
 	display: none;
 }
+.ui-tooltip {
+	font-family: 'Roboto', sans-serif;
+}
