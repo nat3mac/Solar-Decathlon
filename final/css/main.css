@@ -5,7 +5,7 @@
 }
 body{
 	width: 100%;
-	background-color: #eeeeee;
+	background-color: #111;
 	font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -26,6 +26,11 @@ h5{
 	font-size: 12px;
 	font-weight: 400;
 	color: #7ad3ab;
+}
+h6{
+	font-size:64px;
+	color:#7ad3ab;
+	font-weight: 300;
 }
 #resolutionArea{
 	margin: auto;
