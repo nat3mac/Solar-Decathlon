@@ -17,15 +17,26 @@ $(document).ready(function(){
 			var timeLight4 = 15;
 			var timeLight5 = 0;
 	
-	//light ticker
-	setInterval(lightTick, 60000);
+	//light tick function
 	function lightTick(){
 		timeLight1++;
 		timeLight2++;
 		timeLight3++;
 		timeLight4++;
 		timeLight5++;
+		$('.timeLight1').html(timeLight1);
+		$('.timeLight2').html(timeLight2);
+		$('.timeLight3').html(timeLight3);
+		$('.timeLight4').html(timeLight4);
+		$('.timeLight5').html(timeLight5);
 	};
+	
+	//light ticker
+	setInterval(lightTick, 60000);
+	
+	
+	//initial light tick
+	lightTick();
 	
 	//light control
 	$('#light1').click(
