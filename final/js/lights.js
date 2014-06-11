@@ -19,11 +19,21 @@ $(document).ready(function(){
 	
 	//light tick function
 	function lightTick(){
-		timeLight1++;
-		timeLight2++;
-		timeLight3++;
-		timeLight4++;
-		timeLight5++;
+		if(light1on=true){
+			timeLight1++;
+		};
+		if(light2on=true){
+			timeLight1++;
+		};
+		if(light3on=true){
+			timeLight1++;
+		};
+		if(light4on=true){
+			timeLight1++;
+		};
+		if(light5on=true){
+			timeLight1++;
+		};
 		$('.timeLight1').html(timeLight1);
 		$('.timeLight2').html(timeLight2);
 		$('.timeLight3').html(timeLight3);
