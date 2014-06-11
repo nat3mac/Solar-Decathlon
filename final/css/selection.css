@@ -14,7 +14,7 @@
 	margin-top: -4px;
 	height: 196px;
 	position: absolute;
-	z-index: 99;
+	z-index: 70;
 	background-color: #303030;
 	opacity: .8;
 }
@@ -23,7 +23,7 @@
 	margin-top: -4px;
 	height: 196px;
 	position: absolute;
-	z-index: 99;
+	z-index: 70;
 	background-color: #303030;
 	display: none;
 	opacity: .8;
