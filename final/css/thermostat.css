@@ -15,7 +15,6 @@
 #tempCurrentReadOut{
 	height: 230px;
 	width: 380px;
-	background-color: yellow;
 }
 #sliderElement{
 	left: 280px;
@@ -71,4 +70,11 @@
 }
 #readOuts p{
 	margin-left: 150px;
+}
+#tempCurrentReadOut h6{
+	font-size: 80px;
+}
+#tempCurrentReadOut p{
+	margin-left: 170px; 
+	font-size: 40px;
 }

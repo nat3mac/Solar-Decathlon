@@ -21,7 +21,26 @@ $(document).ready(function(){
 		$('.fTemp').html(fTempSet + '&degF');
 	}
 	
+	//readingUpdate
+	function readingUpdate(){
+		if (tempReading < tempSet){
+			tempReading++;
+		}else if (tempReading > tempSet){
+			tempReading--;
+		}else if (tempReading == tempSet){
+			//do nothing
+		};
+		fTempReading = (((tempReading*9)/5)+32);
+		fTempReading = Math.round(fTempReading);
+		$('.cRead').html(tempReading + '&degC');
+		$('.fRead').html(fTempReading + '&degF');
+	}
+	
+	//initial tick
+	readingUpdate();
+	
 	//ticker
 	setInterval(tempUpdate, 100);
+	setInterval(readingUpdate, 5000);
 	
 }); //close document ready

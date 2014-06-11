@@ -46,6 +46,7 @@
 	var fTempSet = 68;
 	//overall temp
 	var tempReading = 20;
+	var fTempReading = 68;
 </script>
 </head>
 
@@ -101,7 +102,14 @@
 					<div id="tempCurrentReadOut">
 						<h2 class="en">Current Temperature</h2>
 						<h2 class="es">Temperatura Actual</h2>
-						
+						<div class="far" id="tempReadOutFar">
+							<h6 class="fRead"></h6>
+							<p class="cRead"></p>
+						</div>
+						<div class="cel" id="tempReadOutCel">
+							<h6 class="cRead"></h6>
+							<p class="fRead"></p>
+						</div>
 					</div>
 				</div>
 			</div>
