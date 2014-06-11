@@ -9,3 +9,22 @@
 #selectThermo{
 	background-color: #303030;
 }
+#lightsSelectedBlock, #feedbackSelectedBlock{
+	width: 300px;
+	margin-top: -4px;
+	height: 196px;
+	position: fixed;
+	z-index: 99;
+	background-color: #303030;
+	display: none;
+	opacity: .8;
+}
+#thermoSelectedBlock{
+	width: 300px;
+	margin-top: -4px;
+	height: 196px;
+	position: fixed;
+	z-index: 99;
+	background-color: #303030;
+	opacity: .8;
+}
