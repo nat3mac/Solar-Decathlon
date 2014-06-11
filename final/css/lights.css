@@ -33,6 +33,7 @@
 	width: 100px;
 	margin: auto;
 	padding-top: 10px;
+	float: left;
 }
 #onCount, #offCount, #offCountIcon, #onCountIcon{
 	float: left;
