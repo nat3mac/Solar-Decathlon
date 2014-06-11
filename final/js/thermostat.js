@@ -3,6 +3,11 @@ $(document).ready(function(){
 	//console initialization
 	console.log('thermostat js initialized');
 	
+	//lookup table for color
+	//var colorLookup = ['#3daefd','#43b2f5','#49b5ec','#50bae4','#56bddc','#5cc0d3','#62c4cb','#69c9c3','#6fccbb','#74cfb3','#7ad3aa','#84d5a5','#8ed89f','#98db9b','#a1dd95','#abdf90','#b6e28b','#bee485','#c8e680','#d2e97a','#dcec75']
+	var colorLookup = ['#3daefd','#43b2f5','#49b5ec','#50bae4','#56bddc','#5cc0d3','#62c4cb','#69c9c3','#6fccbb','#74cfb3','#7ad3aa','#84d5a5','#8ed89f','#98db9b','#a1dd95','#abdf90','#b6e28b','#bee485','#c8e680','#d2e97a','#dcec75']
+	
+	//slider
 	$('#sliderElement').slider(
 		{animate: true}, 
 		{orientation: 'vertical'}, 
@@ -36,11 +41,18 @@ $(document).ready(function(){
 		$('.fRead').html(fTempReading + '&degF');
 	}
 	
+	//colorUpdate
+	function colorUpdate(){
+		colorValue=(tempSet-10);
+	};
+	
 	//initial tick
 	readingUpdate();
+	colorUpdate();
 	
 	//ticker
 	setInterval(tempUpdate, 100);
+	setInterval(colorUpdate, 100);
 	setInterval(readingUpdate, 5000);
 	
 }); //close document ready

@@ -44,6 +44,12 @@
 	margin-bottom: -.6em;
 }
 .ui-slider-handle {outline: none;}
+#slider{
+	background: -webkit-radial-gradient(); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(); /* Standard syntax */
+}
 #labels{
 	position: relative;
 	top: 20px;
