@@ -32,43 +32,24 @@ $(document).ready(function(){
 		
 		//total count function
 		function lightTotalCheck(){
-			lightOnCount=5;
-			lightOffCount=0;
+			lightOnCount=0;
+			lightOffCount=5;
 			if(light1on==true){
 				lightOnCount++;
-				lightOffCount--;
-			}else if(light1on==false){
-				lightOffCount++
-				lightOnCount--;
 			};
 			if(light2on==true){
 				lightOnCount++;
-				lightOffCount--;
-			}else if(light2on==false){
-				lightOffCount++
-				lightOnCount--;
 			};
 			if(light3on==true){
 				lightOnCount++;
-				lightOffCount--;
-			}else if(light3on==false){
-				lightOffCount++
-				lightOnCount--;
 			};
 			if(light4on==true){
-				lightOnCount++;
-				lightOffCount--;
-			}else if(light4on==false){
-				lightOffCount++
-				lightOnCount--;
+				lightOnCount++;;
 			};
 			if(light5on==true){
 				lightOnCount++;
-				lightOffCount--;
-			}else if(light5on==false){
-				lightOffCount++
-				lightOnCount--;
 			};
+			lightOffCount = 5-lightOnCount;
 			$('#onCount').html('x' + lightOnCount);
 			$('#offCount').html('x' + lightOffCount);
 		};
