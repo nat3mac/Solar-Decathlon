@@ -5,13 +5,6 @@ $(document).ready(function(){
 	
 	//variables
 	
-		//lights
-		var light1on = false;
-		var light2on = false;
-		var light3on = false;
-		var light4on = false;
-		var light5on = false;
-		
 		//language
 		var langSet = 'en';
 		
