@@ -4,3 +4,8 @@
 #feedback{
 	display: none;
 }
+.functionElement{
+	background-color: #303030;
+	width: 100%;
+	height: 588px;
+}
