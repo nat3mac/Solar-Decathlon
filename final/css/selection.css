@@ -4,8 +4,11 @@
 	text-align: center;
 	cursor: pointer;
 	padding-top: 4px;
-	background-color: #404040;
+	background: -webkit-linear-gradient(#404040, #545454);
+	background: -o-linear-gradient(#404040, #545454);
+	background: -moz-linear-gradient(#404040, #545454);
+	background: linear-gradient(#404040, #545454);
 }
 #selectThermo{
-	background-color: #303030;
+	background: #303030;
 }
