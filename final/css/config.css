@@ -40,6 +40,7 @@
 	line-height: 150px;
 	margin-top: 5px;
 }
+.tempSelect:hover, .langSelect:hover {cursor: pointer;}
 #closeButton h4{
 	color: white;
 	line-height: 50px;

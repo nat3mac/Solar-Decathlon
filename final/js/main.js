@@ -74,7 +74,7 @@ $(document).ready(function(){
 			currentHour = (currentHour == 0) ? 12 : currentHour;
 			//write time
 			var enDate = monthTextEn + ' ' + currentDay;
-			var esDate = monthTextEs + ' ' + currentDay;
+			var esDate = currentDay + ' de ' + monthTextEs;
 			var currentTimeString = currentHour + ':' + currentMin + ':' + currentSec+ ' ' + amPm;
 			$('#clockText').html(currentTimeString);
 			$('#dateText .en').html(enDate);
