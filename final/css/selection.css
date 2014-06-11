@@ -3,6 +3,7 @@
 	width: 100%;
 	text-align: center;
 	cursor: pointer;
+	padding-top: 4px;
 }
 #selectThermo{
 	background-color: #303030;
