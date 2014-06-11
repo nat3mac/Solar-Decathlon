@@ -10,6 +10,22 @@ $(document).ready(function(){
 			var light3on = false;
 			var light4on = false;
 			var light5on = false;
+		//light timers
+			var timeLight1 = 0;
+			var timeLight2 = 30;
+			var timeLight3 = 40;
+			var timeLight4 = 15;
+			var timeLight5 = 0;
+	
+	//light ticker
+	setInterval(lightTick, 60000);
+	function lightTick(){
+		timeLight1++;
+		timeLight2++;
+		timeLight3++;
+		timeLight4++;
+		timeLight5++;
+	};
 	
 	//light control
 	$('#light1').click(
