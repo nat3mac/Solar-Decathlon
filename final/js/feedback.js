@@ -4,12 +4,22 @@ $(document).ready(function(){
 	console.log('feedback js initialized');
 
 	var percentage = 64;
-	$('#percentage').html(percentage + '%');
+	updatePercent();
+	
+	function updatePercent() {
+		$('#percentage').html(percentage + '%');
+	}
 
-	window.setInterval(deplete, 10000);
+	window.setInterval(deplete, 49382);
+	window.setInterval(increase, 76947);
 
 	function deplete() {
-		$('#percentage').val( function(i, percentage) {return --percentage;}
-};
+		--percentage;
+		updatePercent();
+	};
+	function increase() {
+		++percentage;
+		updatePercent();
+	};
 
 }); //close document ready
