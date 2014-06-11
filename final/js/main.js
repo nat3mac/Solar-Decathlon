@@ -75,7 +75,7 @@ $(document).ready(function(){
 			//write time
 			var enDate = monthTextEn + ' ' + currentDay;
 			var esDate = currentDay + ' de ' + monthTextEs;
-			var currentTimeString = currentHour + ':' + currentMin + ':' + currentSec+ ' ' + amPm;
+			var currentTimeString = currentHour + ':' + currentMin + ' ' + amPm;
 			$('#clockText').html(currentTimeString);
 			$('#dateText .en').html(enDate);
 			$('#dateText .es').html(esDate);
