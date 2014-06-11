@@ -79,6 +79,11 @@
 	font-size: 40px;
 }
 #dynamicCel h6, #dynamicFar h6{
+	font-size: 60px;
 }
 #dynamicCel p, #dynamicFar p{
+	font-size: 30px;
+}
+#dynamicFar .en, #dynamicFar .es, #dyanmicCel .en, #dynamicCel .es{
+	font-size: 25px;
 }
