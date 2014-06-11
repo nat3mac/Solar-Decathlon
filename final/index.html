@@ -10,9 +10,9 @@
 <link rel="stylesheet" type="text/css" href="css/config.css">
 <link rel="stylesheet" type="text/css" href="css/active.css">
 <link rel="stylesheet" type="text/css" href="css/lights.css">
-<link rel="stylesheet" type="text/css" href="css/thermostat.css">
 <link rel="stylesheet" type="text/css" href="css/feedback.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.css">
+<link rel="stylesheet" type="text/css" href="css/thermostat.css">
 <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.10.4.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
@@ -72,7 +72,18 @@
 			<div id="thermostat" class="functionElement">
 				<div id="slider">
 					<div id="sliderElement"></div>
+					<div id="labels">
+						<div id="maxTempLabel">
+							<h3 class="cel">30&degC </h3>
+							<h3 class="far">86&degF </h3>
+							</div>
+						<div id="minTempLabel">
+							<h3 class="cel">10&degC </h3>
+							<h3 class="far">50&degF </h3>
+						</div>
+					</div>
 				</div>
+				
 				<div id="readOuts">
 					<div id="tempSetReadOut">
 					</div>

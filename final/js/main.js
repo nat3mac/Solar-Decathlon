@@ -21,9 +21,13 @@ $(document).ready(function(){
 			};
 			//temperature toggles
 			if(unitSet=='far'){
+				$('.cel').hide();
+				$('.far').show();
 				$('#configFar').css('backgroundColor', '#4FC48F');
 				$('#configCel').css('backgroundColor', '#4d4d4d');
 			}else if (unitSet=='cel'){
+				$('.far').hide();
+				$('.cel').show();
 				$('#configCel').css('backgroundColor', '#4FC48F');
 				$('#configFar').css('backgroundColor', '#4d4d4d');
 			};
