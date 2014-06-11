@@ -22,4 +22,5 @@ $(document).ready(function(){
 		updatePercent();
 	};
 
+	$('#dynamicPercent').html(percentage + '%');
 }); //close document ready
