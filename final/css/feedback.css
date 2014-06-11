@@ -1,12 +1,16 @@
+#percentage, #timeRem {	
+	position:absolute;
+	width:200px;
+	text-align: center;
+}
 #percentage{
 	font-size:108px;
 	color:#7ad3ab;
 	font-weight: 100;
-	position:absolute;
-	left:398px;
-	top:290px;
-	width:200px;
-	text-align: center;
+	top:270px; left:398px;
+}
+#timeRem {
+	top:420px; left:390px;
 }
 #dynamicPercent {
 	font-size: 60px;
