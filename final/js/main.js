@@ -27,11 +27,23 @@ $(document).ready(function(){
 		function stateRefresh(){
 			//language
 			if(langSet=='en'){
-				$('.es').hide(0);
-				$('.en').show(0);
+				$('.es').hide();
+				$('.en').show();
+				$('#configEn').css('backgroundColor', '#4FC48F');
+				$('#configEs').css('backgroundColor', '#4d4d4d');
 			}else if(langSet=='es'){
-				$('.en').hide(0);
-				$('.es').show(0);
+				$('.en').hide();
+				$('.es').show();
+				$('#configEs').css('backgroundColor', '#4FC48F');
+				$('#configEn').css('backgroundColor', '#4d4d4d');
+			};
+			//temperature toggles
+			if(unitSet=='far'){
+				$('#configFar').css('backgroundColor', '#4FC48F');
+				$('#configCel').css('backgroundColor', '#4d4d4d');
+			}else if (unitSet=='cel'){
+				$('#configCel').css('backgroundColor', '#4FC48F');
+				$('#configFar').css('backgroundColor', '#4d4d4d');
 			};
 		};
 	
@@ -78,7 +90,26 @@ $(document).ready(function(){
 		$('#configClose').click(function(){
 			$('#config').fadeOut(200);
 		});
-	
+		//toggles
+			//language
+			$('#configEn').click(function(){
+				langSet = 'en';
+				stateRefresh();
+			});
+			$('#configEs').click(function(){
+				langSet = 'es';
+				stateRefresh();
+			});
+			//units
+			$('#configFar').click(function(){
+				unitSet = 'far';
+				stateRefresh();
+			});
+			$('#configCel').click(function(){
+				unitSet = 'cel';
+				stateRefresh();
+			});
+			
 	//language code
 	
 	//unit code

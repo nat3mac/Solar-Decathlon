@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/header.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/config.css">
+<link rel="stylesheet" type="text/css" href="css/active.css">
 <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/lights.js"></script>
@@ -36,13 +37,13 @@
 		</header>
 	
 		<div id="activeElement">
-			<div id="thermostat">
+			<div id="thermostat" class="functionElement">
 			thermo
 			</div>
-			<div id="lights">
+			<div id="lights" class="functionElement">
 			lights
 			</div>
-			<div id="feedback">
+			<div id="feedback" class="functionElement">
 			feed
 			</div>
 		</div>
@@ -74,6 +75,21 @@
 			<div id="configClose"></div>
 			<div id="configCenter">
 				<div id="configMenu">
+					<div id="languageSetting" class="setting">
+						<h4 class="es">Idioma</h4>
+						<h4 class="en">Language</h4>
+						<div class="langSelect" id="configEn">English</div>
+						<div class="langSelect" id="configEs">Espa&ntilde;ol</div>
+					</div>
+					<div id="temperatureSetting" class="setting">
+						<h4 class="es">Unidades de Temperatura</h4>
+						<h4 class="en">Temperature Units</h4>
+						<div class="tempSelect" class="far" id="configFar">Fahrenheit</div>
+						<div class="tempSelect" class="cel" id="configCel">
+							<span class="en">Celsius</span>
+							<span class="es">Cent&iacute;grados</span>
+						</div>
+					</div>
 				</div>
 			</div>
 			
