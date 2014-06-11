@@ -28,3 +28,15 @@
 	top: 370px;
 	right: 160px;
 }
+.lightCount{
+	height: 70px;
+	width: 100px;
+	margin: auto;
+	padding-top: 10px;
+}
+#onCount, #offCount, #offCountIcon, #onCountIcon{
+	float: left;
+}
+#onCount, #offCount{
+	padding-top: 10px;
+}
