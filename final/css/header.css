@@ -14,3 +14,9 @@
 	line-height: 80px;
 	margin-right: 40px;
 }
+#clockText, #dateText{
+	float: right;
+}
+#dateText{
+	margin-right: 20px;
+}

@@ -50,8 +50,10 @@ $(document).ready(function(){
 			var currentHour = currentTime.getHours();
 			var currentMin = currentTime.getMinutes();
 			var currentSec = currentTime.getSeconds();
-			var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-			var monthText = months[currentMonth];
+			var monthsEn = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+			var monthTextEn = monthsEn[currentMonth];
+			var monthsEs = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'deciembre'];
+			var monthTextEs = monthsEs[currentMonth];
 			//convert to 12hr format
 			currentMin =(currentMin < 10 ? '0' : '') + currentMin;
 			currentSec = (currentSec < 10 ? '0' : '') + currentSec;
@@ -59,8 +61,12 @@ $(document).ready(function(){
 			currentHour = (currentHour > 12) ? currentHour - 12 : currentHours;
 			currentHour = (currentHour == 0) ? 12 : currentHour;
 			//write time
-			var currentTimeString = monthText + ' ' + currentDay + ' ' + currentHour + ':' + currentMin + ':' + currentSec+ ' ' + amPm;
+			var enDate = monthTextEn + ' ' + currentDay;
+			var esDate = monthTextEs + ' ' + currentDay;
+			var currentTimeString = currentHour + ':' + currentMin + ':' + currentSec+ ' ' + amPm;
 			$('#clockText').html(currentTimeString);
+			$('#dateText .en').html(enDate);
+			$('#dateText .es').html(esDate);
 		}
 	
 	//language code
